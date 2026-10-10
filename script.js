@@ -120,7 +120,7 @@ appointmentForm?.addEventListener("submit", (event) => {
 
   setFormStatus(
     "Your details are valid, but this website is not connected to a secure submission service yet. Please call 986-3930237 or email the clinic to send your enquiry.",
-    "failure",
+    "success",
   );
 });
 

@@ -947,6 +947,26 @@ form span {
   font-weight: 700;
   color: var(--brown);
 }
+.social-row a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+.social-icon-facebook {
+  fill: currentColor;
+  stroke: none;
+}
+.social-icon-dot {
+  fill: currentColor;
+  stroke: none;
+}
 .site-footer {
   background: var(--brown-deep);
   color: #e6d9ce;
