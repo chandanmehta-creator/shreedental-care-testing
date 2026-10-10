@@ -138,7 +138,8 @@ const translations = {
     "hero.title": "Confident smiles.<br /><em>Advanced dental care.</em>",
     "hero.text":
       "Thoughtful, technology-supported dentistry for you and your family — in a calm, comfortable setting in Imadol.",
-    "hero.primary": "Book an Appointment <span>↗</span>",
+    "hero.primary":
+      'Book an Appointment <span class="nav-cue" aria-hidden="true"></span>',
     "hero.secondary": "Explore our services <span>→</span>",
     "hero.note": "Open Sunday–Friday · 9:00 AM–5:00 PM",
     "hero.badge": "Modern diagnostics<br /><strong>Patient-first care</strong>",
@@ -153,7 +154,8 @@ const translations = {
     "hero.title": "आत्मविश्वासी मुस्कान।<br /><em>आधुनिक दन्त उपचार।</em>",
     "hero.text":
       "इमाडोलमा तपाईं र तपाईंको परिवारका लागि शान्त, सहज वातावरणमा प्रविधिमा आधारित दन्त सेवा।",
-    "hero.primary": "अपोइन्टमेन्ट लिनुहोस् <span>↗</span>",
+    "hero.primary":
+      'अपोइन्टमेन्ट लिनुहोस् <span class="nav-cue" aria-hidden="true"></span>',
     "hero.secondary": "हाम्रा सेवाहरू हेर्नुहोस् <span>→</span>",
     "hero.note": "आइतबार–शुक्रबार · बिहान ९:००–बेलुका ५:००",
     "hero.badge":
@@ -339,11 +341,13 @@ const localizedBlocks = [
   },
   {
     selector: ".map-action",
-    value: "नक्सा हेर्नुहोस् <b>↗</b>",
+    value:
+      'नक्सा हेर्नुहोस् <b class="nav-cue" aria-hidden="true"></b>',
   },
   {
     selector: "#appointment-form > .button",
-    value: "अपोइन्टमेन्ट अनुरोध पठाउनुहोस् <span>↗</span>",
+    value:
+      'अपोइन्टमेन्ट अनुरोध पठाउनुहोस् <span class="nav-cue" aria-hidden="true"></span>',
   },
   {
     selector: ".form-disclaimer",

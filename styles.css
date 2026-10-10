@@ -148,6 +148,38 @@ textarea {
   font-size: 17px;
   font-weight: 400;
 }
+.nav-cue {
+  display: inline-block;
+  position: relative;
+  width: 27px;
+  height: 9px;
+  margin-left: 2px;
+  transition: transform 0.25s ease;
+}
+.nav-cue::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 21px;
+  height: 1px;
+  background: currentColor;
+}
+.nav-cue::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 7px;
+  height: 7px;
+  border-top: 1px solid currentColor;
+  border-right: 1px solid currentColor;
+  transform: rotate(45deg);
+}
+.button:hover .nav-cue,
+.map-placeholder:hover .nav-cue {
+  transform: translateX(4px);
+}
 .button-small {
   padding: 11px 15px;
 }
@@ -935,9 +967,7 @@ form span {
 }
 .map-placeholder .map-action b {
   color: var(--gold);
-  font-size: 15px;
-  font-weight: 400;
-  margin-left: 5px;
+  margin-left: 8px;
 }
 .social-row {
   display: flex;
